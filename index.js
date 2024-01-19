@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 app.use(
   cors({
     credentials: true,
-    origin: "https://minitalk-pramendra-shukla.netlify.app/",
+    origin: "https://65aab41e43eb8c048bdb628f--harmonious-pasca-6e9c12.netlify.app",
   })
 );
 
