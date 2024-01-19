@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'https://your-frontend-domain.com');
+  res.header('Access-Control-Allow-Origin', 'https://minitalk-pramendra-shukla.netlify.app');
   res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
   res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
   next();
@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 app.use(
   cors({
     credentials: true,
-    origin: "https://65aab41e43eb8c048bdb628f--harmonious-pasca-6e9c12.netlify.app",
+    origin: "https://minitalk-pramendra-shukla.netlify.app",
   })
 );
 
